@@ -95,7 +95,7 @@ export default function Products() {
                 />
                 
                 {/* Overlay actions */}
-                <div className="absolute inset-x-0 bottom-4 flex justify-center gap-3 translate-y-20 group-hover:translate-y-0 transition-transform duration-300">
+                <div className="absolute inset-x-0 bottom-4 flex justify-center gap-3 md:translate-y-20 md:group-hover:translate-y-0 transition-transform duration-300 translate-y-0">
                   <button className="w-10 h-10 bg-white rounded-full flex items-center justify-center shadow-lg hover:bg-green-600 hover:text-white transition-all text-gray-700">
                     <Heart className="w-4 h-4" />
                   </button>
