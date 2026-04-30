@@ -1,0 +1,54 @@
+{
+  "entities": {
+    "Product": {
+      "title": "Product",
+      "description": "A food product for sale",
+      "type": "object",
+      "properties": {
+        "name": { "type": "string" },
+        "price": { "type": "string" },
+        "image": { "type": "string" },
+        "category": { "type": "string" },
+        "isNew": { "type": "boolean" }
+      },
+      "required": ["name", "price", "image", "category"]
+    },
+    "Blog": {
+      "title": "Blog Post",
+      "description": "A news or health article",
+      "type": "object",
+      "properties": {
+        "title": { "type": "string" },
+        "date": { "type": "string" },
+        "image": { "type": "string" },
+        "excerpt": { "type": "string" }
+      },
+      "required": ["title", "date", "image", "excerpt"]
+    },
+    "Order": {
+      "title": "Customer Order",
+      "description": "An order placed by a customer",
+      "type": "object",
+      "properties": {
+        "items": { "type": "array" },
+        "total": { "type": "number" },
+        "createdAt": { "type": "string", "format": "date-time" }
+      },
+      "required": ["items", "total", "createdAt"]
+    }
+  },
+  "firestore": {
+    "/products/{productId}": {
+      "schema": "Product",
+      "description": "Store all available products"
+    },
+    "/blogs/{blogId}": {
+      "schema": "Blog",
+      "description": "Store blog posts"
+    },
+    "/orders/{orderId}": {
+      "schema": "Order",
+      "description": "Store customer orders"
+    }
+  }
+}

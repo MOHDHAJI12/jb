@@ -1,0 +1,91 @@
+{
+  "products": [
+    {
+      "id": "1",
+      "name": "Fresh Strawberries",
+      "price": "₹48.75/kg",
+      "image": "https://images.unsplash.com/photo-1464960350293-9a8c5b7f77a0?auto=format&fit=crop&q=80&w=400",
+      "category": "Fruit",
+      "isNew": true
+    },
+    {
+      "id": "2",
+      "name": "Rival Field 1",
+      "price": "₹45.00/kg",
+      "image": "https://images.unsplash.com/photo-1528747045372-593ea59747c9?auto=format&fit=crop&q=80&w=400",
+      "category": "Nuts",
+      "isNew": true
+    },
+    {
+      "id": "3",
+      "name": "Beginner's Yoga",
+      "price": "₹48.75/kg",
+      "image": "https://images.unsplash.com/photo-1501431309167-12198207bec0?auto=format&fit=crop&q=80&w=400",
+      "category": "Fruit",
+      "isNew": true
+    },
+    {
+      "id": "4",
+      "name": "Established Fact 1",
+      "price": "₹48.75/kg",
+      "image": "https://images.unsplash.com/photo-1508316701307-6b77d1aef2af?auto=format&fit=crop&q=80&w=400",
+      "category": "Nuts",
+      "isNew": true
+    },
+    {
+      "id": "5",
+      "name": "Fresh Lemons",
+      "price": "₹32.00/kg",
+      "image": "https://images.unsplash.com/photo-1590502593747-42a996133562?auto=format&fit=crop&q=80&w=400",
+      "category": "Fruit"
+    },
+    {
+      "id": "6",
+      "name": "Red Apples",
+      "price": "₹28.50/kg",
+      "image": "https://images.unsplash.com/photo-1560806887-1e4cd0b6cbd6?auto=format&fit=crop&q=80&w=400",
+      "category": "Fruit"
+    },
+    {
+      "id": "7",
+      "name": "Organic Carrots",
+      "price": "₹15.00/kg",
+      "image": "https://images.unsplash.com/photo-1598170845058-32b9d6a5aa37?auto=format&fit=crop&q=80&w=400",
+      "category": "Vegetable"
+    },
+    {
+      "id": "8",
+      "name": "Sweet Corn",
+      "price": "₹12.00/kg",
+      "image": "https://images.unsplash.com/photo-1551754655-cd27e38d2076?auto=format&fit=crop&q=80&w=400",
+      "category": "Vegetable"
+    }
+  ],
+  "blogs": [
+    {
+      "id": "1",
+      "title": "Health and Wellness Tips for 2024",
+      "date": "April 15, 2024",
+      "image": "https://images.unsplash.com/photo-1498837167922-ddd27525d352?auto=format&fit=crop&q=80&w=600",
+      "excerpt": "Discover the best ways to stay healthy and vibrant this year..."
+    },
+    {
+      "id": "2",
+      "title": "Top 10 Vegan Recipes for Beginners",
+      "date": "March 22, 2024",
+      "image": "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?auto=format&fit=crop&q=80&w=600",
+      "excerpt": "Transitioning to a plant-based diet has never been easier..."
+    },
+    {
+      "id": "3",
+      "title": "The Benefits of Organic Farming",
+      "date": "February 10, 2024",
+      "image": "https://images.unsplash.com/photo-1500651230702-0e2d8a49d4ad?auto=format&fit=crop&q=80&w=600",
+      "excerpt": "Organic farming is not just better for you, it is better for the planet..."
+    }
+  ],
+  "orders": [],
+  "settings": {
+    "adminPassword": "admin"
+  }
+}
